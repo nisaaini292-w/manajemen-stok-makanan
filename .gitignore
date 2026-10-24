@@ -1,12 +1,41 @@
+# Environment variables and secrets
 .env
 .env.*
 !.env.example
+.envrc
 
+# Python environments
 venv/
 .venv/
 env/
+ENV/
+env.bak/
+venv.bak/
 
+# Python cache
 __pycache__/
 *.py[cod]
+*$py.class
 
+# Build and distribution
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+wheels/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and editor
 .vscode/
+.idea/
+
+# Flask
+instance/
+.webassets-cache
+
+# Other temporary files
+tempCodeRunnerFile.py
